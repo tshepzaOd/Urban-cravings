@@ -1,6 +1,4 @@
-CREATE DATABASE urban_cravings;
-
-USE urban_cravings;
+DROP TABLE IF EXISTS bookings;
 
 CREATE TABLE bookings (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -12,4 +10,3 @@ CREATE TABLE bookings (
   message TEXT,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
